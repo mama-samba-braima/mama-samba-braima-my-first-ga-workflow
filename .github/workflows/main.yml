@@ -9,8 +9,11 @@ jobs:
     steps:
       - name: My First Step
         run: printenv
-      - name: My Second Command
+      - name: My Second Step
         run: |
           echo "Amigoscode"
           echo "Hello" > file.txt
           ls
+          echo file.text
+      - name: Sleep Step
+        run: sleep 20

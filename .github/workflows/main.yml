@@ -17,3 +17,8 @@ jobs:
           cat file.txt
       - name: Sleep Step
         run: sleep 5
+      - name: My Fisrt Actin
+        uses: actions/checkout@4
+      - name: ls repo
+        run: |
+          ls
